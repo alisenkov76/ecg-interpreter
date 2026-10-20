@@ -222,3 +222,6 @@ __marimo__/
 .DS_Store
 .AppleDouble
 .LSOverride
+
+# Allure
+allure-results/
