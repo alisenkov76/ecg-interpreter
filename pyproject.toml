@@ -19,6 +19,7 @@ dependencies = []
 [project.optional-dependencies]
 test = [
     "pytest>=8.0",
+    "allure-pytest>=2.13",
 ]
 
 
@@ -56,4 +57,5 @@ pythonpath = [
 addopts = """
     -ra
     --strict-markers
+    --alluredir=allure-results
 """
